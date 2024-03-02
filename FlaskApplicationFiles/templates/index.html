@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DESTINATION RECOMMENDATION</title>
+    <link rel="stylesheet" href="static/style1.css">
+</head>
+<body>
+    <div class="title">
+        <h1>DESTINATION RECOMMENDATION SYSTEM</h1>
+    </div>
+    <div class="content">
+        <form action="/submit" method="POST" clss="form">
+            <label for="cityName">
+                <select name="cityName" width="1000px" >
+                    <option value={{cities[i]}}><pre>SELECT  CITY  TO  VISIT</pre></option>
+                    {% for i in range(cities|length) %}
+                        <option value={{cities[i]}}>{{cities[i]}}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

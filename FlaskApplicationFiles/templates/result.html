@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="static/style2.css">
+</head>
+<body>
+    <div class="title">
+        <h1>RECOMMENDED CITIES</h1>
+    </div>
+    <div class="content">
+        {% for i in range(city|length)%}
+            <div class = "city">
+                <h2>{{city[i]}}</h3>
+                <img src="{{url[i]}}">
+                <p>{{desc[i]}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

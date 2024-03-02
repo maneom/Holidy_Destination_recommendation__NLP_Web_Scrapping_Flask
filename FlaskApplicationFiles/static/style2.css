@@ -1,0 +1,27 @@
+.title{
+    text-align : center;
+    background-color : rgb(10, 10, 10);
+    color: white;
+    height: 50px;
+}
+body{
+    height: max-content;
+    background-color: rgb(168, 117, 117);
+    color: aqua;
+}
+img{
+    height: 250px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.city{
+    height: fit-content;
+    width: 32%;
+    text-align: center;
+    margin: 5px;
+}
+h2{
+    color: floralwhite;
+}
