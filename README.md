@@ -1,4 +1,4 @@
-## Holidy Destination Recommendatio
+## Holidy Destination Recommendation
 
 The holiday destination recommendation project focuses on suggesting tourist places or cities based on user input. The main idea is to accept a tourist place or city from the user and recommend related cities or destinations.
 
